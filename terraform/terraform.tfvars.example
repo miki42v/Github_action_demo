@@ -1,0 +1,7 @@
+aws_region        = "us-east-1"
+environment       = "dev"
+app_name          = "demo"
+admin_cidr        = "YOUR_PUBLIC_IP/32"
+ec2_instance_type = "t2.micro"
+enable_rds        = false
+rds_instance_class = "db.t3.micro"
